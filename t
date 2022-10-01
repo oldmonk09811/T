@@ -16,6 +16,15 @@ class A extends Thread
   }
 }
 
+class A extends Thread
+{
+  public int i=0;
+  public void run()
+  {
+   // public int i=0;
+    while(Temo.flag)
+    {
+      i++;
  class Dcoder
  {
    public static void main(String args[])
